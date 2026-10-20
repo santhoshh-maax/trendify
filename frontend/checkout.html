@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Dressify</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="title">Checkout</h1>
+
+    <div class="checkout-box">
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="text" id="phone" placeholder="Enter Phone Number">
+        <textarea id="address" placeholder="Enter Address"></textarea>
+
+        <h2>Total: ₹<span id="checkout-total">0</span></h2>
+
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+
+    <script src="checkout.js"></script>
+</body>
+</html>

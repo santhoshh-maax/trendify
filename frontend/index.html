@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dress Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body id="top"></body>
+
+    <nav>
+        <h2>Trendify</h2>
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+</li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Fashion That Speaks</h1>
+            <p>Discover trendy dresses for every occasion</p>
+            <button onclick="goToCollection()">Shop Now</button>
+        </div>
+    </section>
+    <section class="controls">
+    <input type="text" id="search" placeholder="Search dresses...">
+
+    <select id="category">
+        <option value="all">All</option>
+        <option value="Casual">Casual</option>
+        <option value="Party">Party</option>
+        <option value="Wedding">Wedding</option>
+    </select>
+</section>
+
+
+<div class="popup" id="popup"></div>
+    <section id="collection">
+    <h2 class="title">Our Collection</h2>
+    <div class="products" id="products"></div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <h3>Trendify</h3>
+    <p>© 2026 Trendify. All Rights Reserved.</p>
+</footer>
+</html>

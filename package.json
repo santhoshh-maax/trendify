@@ -1,0 +1,20 @@
+{
+  "name": "trendify",
+  "version": "1.0.0",
+  "description": "Trendify fullstack e-commerce app",
+  "main": "backend/index.js",
+  "scripts": {
+    "build": "npm install --prefix backend",
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3"
+  }
+}
